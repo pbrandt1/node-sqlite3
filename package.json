@@ -1,8 +1,8 @@
 {
-    "name": "sqlite3",
+    "name": "sqlite3-unchained",
     "description": "Asynchronous, non-blocking SQLite3 bindings",
     "version": "3.1.4",
-    "homepage": "http://github.com/mapbox/node-sqlite3",
+    "homepage": "http://github.com/pbrandt1/node-sqlite3-unchained",
     "author": {
         "name": "MapBox",
         "url": "https://mapbox.com/"
@@ -34,7 +34,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/mapbox/node-sqlite3.git"
+        "url": "git://github.com/pbrandt1/node-sqlite3-unchained.git"
     },
     "dependencies": {
         "nan": "~2.3.3",
@@ -56,7 +56,8 @@
         "sql",
         "sqlite",
         "sqlite3",
-        "database"
+        "database",
+        "promise"
     ],
     "main": "./lib/sqlite3"
 }
