@@ -7,6 +7,12 @@ Asynchronous, non-blocking [SQLite3](http://sqlite.org/) bindings for [Node.js](
 [![Coverage Status](https://coveralls.io/repos/mapbox/node-sqlite3/badge.svg?branch=master&service=github)](https://coveralls.io/github/mapbox/node-sqlite3?branch=master)
 [![Dependencies](https://david-dm.org/mapbox/node-sqlite3.svg)](https://david-dm.org/mapbox/node-sqlite3)
 
+***UNCHAINED**
+
+Just like the original except that instead of a chained api where each function returns the original database/statement object, each function now returns a promise. So you can use this with co etc. This is obviously a breaking change, so you can't just substitute this in for your working code and expect things to be just fine. 
+
+What follows is the original readme which i do not have time to modify right now.
+
 
 ## Supported platforms
 
